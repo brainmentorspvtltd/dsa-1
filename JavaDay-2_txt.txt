@@ -1,0 +1,106 @@
+why main?
+- main is a entry point of every java program
+- without main java will compile the code and convert it into byte code, but it can't execute the code or interpret the code
+
+4 types of scopes in java
+public: global, which is accessible for all, fom anywhere
+private: accessible within class only
+protected: can be accessed inside the package, can also be accessed outside the package by using inheritance
+default: it is not a reserved keyword, if you will not specify any scope then it is default. The scope can be accessed by any classs but within same package
+
+Why main is public?
+- JRE uses main: java <bytecode>
+- java command trigger the JRE
+- JRE load your class in the memory
+- JRE is looking for main
+- JRE is outside from your package/directory
+- And outside the package things can access
+
+Why main is static?
+- Static things are loaded into memory when class is loaded
+
+Why main is void?
+- main is void in nature
+- main is entry point so there is no need to return anything
+
+main arguments - String args[]
+- main has command line arguments
+for e.g: copy xyz.txt abc.txt
+- copy is a command and xyz, abc are arguments
+
+What is command line arguments?
+
+- we can make our own commands
+for e.g. wish happy birthday 9836598466 11:59PM
+- wish is a command and happy birthday 9836598466 11:59PM are the arguments
+- we can pass any number of arguments, that's why it is array
+- All arguments are pass to main in form of array of string
+
+What is String?
+
+- String is a collection of class
+- String internallly is a char[]
+- String is a predefined class in java as it is in capital letter
+
+What is System.out.println?
+
+- println(): print in new line, println comes from out object
+- out: out is a predefined object, which belongs to PrintStream class
+- System is a predefined class used for input, output, error
+e.g. System.out, System.in, System.err
+
+- java doesn't have any garbage value
+- it thows error
+- Local variables must be initialized before use
+- otherwise compilation fails
+
+Data Types
+
+- It is used to store integral only
+byte - 1 byte
+short - 2 bytes
+int - 4 bytes
+long - 8 bytes
+
+- Decimal Values
+float - 4 bytes
+double - 8 bytes
+
+- Enter the Age of Student
+
+byte - 1 byte = 8 bits
+
+1 bit +-
+7 bits number range
+Bit 0, 1 base 2
+
+-2 ^ 7 to 2 ^ 7 - 1
+-128 to 127
+
+char - 2 bytes
+- because java works on unicode(universal code)
+- utf-8 (Universal text format - 8 bits)
+
+- String better than char[]
+- String is wrapper class of char[]
+
+BigDecimal and BigInteger:
+
+- BigDecimal: It can handle very large and very small floating point numbers
+- BigInteger: It can handle very large and very small integral numbers
+
+
+Assignment 1:
+
+Salary Calculator
+- Enter Basic Salary
+HRA - House Rent Allowance - 30%
+DA - Dearness Allowance - 10%
+TA - Travelling Allowance - 20%
+MA - Miscellaneous Allowance - 15%
+
+Compute - Gross Salary(GS), Net Salary(NS)
+
+
+
+
