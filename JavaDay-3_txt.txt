@@ -1,0 +1,45 @@
+Wrapper Classes
+
+- wrapper class is a class
+- whose object wraps or contains primitive data types.
+- we can wrap a primitive data types / value into a wrapper class object
+
+primitive data types- int, float, double, etc
+
+Wrapper Classes- Integer, Character, Float, Double, Byte
+
+Autoboxing - int to Integer, float to Float
+Unboxing - Integer to int, Float to float
+
+BufferedReader
+- BufferedReader is a class that reads text from a character-input stream
+- it provides efficient reading of sequence of characters
+
+2 major types of programming:
+
+- Procedural - Functions - Divide a problem into functions
+- OOPS - Wrap all the variables and functions into a single unit - class
+
+Why OOPS?
+class A
+{
+int x, y;
+
+add() {
+}
+sub() {
+}
+mul() {
+}
+div() {
+}
+}
+class B{
+sin() {
+	double x;
+}
+}
+
+Is java has global variable?
+- No, because in java every program start with class, and class doesn't have global variable
+
