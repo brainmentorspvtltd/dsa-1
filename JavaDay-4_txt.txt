@@ -1,0 +1,92 @@
+C- We think only for functions
+- We never think of data, so either data/variable are define local or global.
+- And global can be conflict with others
+
+C++ OOPS- Provide a feature of Data Binding using classes
+So your class have your variable and your methods that never conflict with others
+So we can use for large and complex system
+and it fit for real world secenarios
+
+Now in OOPS we can use same variable name, same method name in different classes
+
+What is OOPS?
+
+- Divide a big problem into classes
+OOPS Features:
+
+1. Class, Object
+
+- Class- Collection of Features / Characteristics
+e.g. Human(Features Brain, Height, 2 Ears)
+- Object - ram state brain , 6 feet height
+Object - Object contains State(Object Value)
+
+- Class - Category, Blueprint, Layout, Skeleton, Structure
+- Object - real time entity
+e.g. Fan, Car, Projector
+e.g. ram, shyam, geeta
+
+Class - Collection of similar objects
+
+
+OOAD - Object Oriented Analysis and Design
+SOLID - Priciple
+
+D - DRY (Don't Repeat Yourself)
+Copy Paste Alternative create a function and call it.
+
+
+Encapsulation
+-private member variables and public methods
+-Wrap methods and member variables into a single unit  and that unit is called class.
+
+Data Hiding - Good/Secure Encapsulation
+
+-Data Hiding - make member variables private
+- Good Encapsulation = Data Hiding + Encapsulation
+
+Scopes:
+
+private - with in the class
+default - (not keyword just concept)-scope with in the package
+protected - with in the package but i can access also outside the package using Inheritance
+public - access on any package.
+
+This Keyword:
+
+- this keyword holds current object address
+
+OOAD-
+SOLID
+D- DRY - 
+
+
+Q1. Need to initialize the member variable when object is construct?
+Ans: We need constructor for this.
+- Constuctor is call when you create an object.
+- So constructor will initialize the member variable
+- Constructor name is same as class name
+- Constructor never return any thing
+- It is called only once
+- Every class by default have default constructor
+- So if you have any other constructor the default one is killed
+
+- One class can have multiple constructors, so for this thing is constructor chaining or constructor overloading
+
+-When we need multiple constructor calls in a single call.
+Ans: we need constructor chaining for this.
+	this keyword also use for constructor chaining
+	
+Assignment - 2
+
+Create Employee Class,
+Input- id, name, basic salary
+Compute - HRA, DA, TA, MA, GS, NS
+print - Salary Slip in Indian Format
+
+Constraints:
+- company name is fixed for all employees
+- basic salary can be alter any time
+- id once assign never change
+
+
