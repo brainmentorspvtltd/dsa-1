@@ -1,0 +1,68 @@
+Package:
+
+- package is a folder behind the scene
+- package is a collection of classes and interfaces
+- We divide a big project into small-2 packages
+- So we can group the similar nature code in same kind of package.
+
+e.g. user package - Login, Register, Password Change, Account details
+
+Package Creation:
+
+1. com.dit.teststudent.course
+2. com.dit.teststudent.student;
+
+import com.dit.teststudent.course.CourseDetails;
+
+
+Scope-
+public keyword - can access the class/constructor/function/variable outside the package
+Note: public class doesn't mean members are public
+- If class is public so it must match with filename
+- In one single file there is only one public class
+- One single file has one public and n non-public classes
+
+Class Relationship:
+- Communicate b/w two classes
+
+1. IS-A
+- SavingAccount is a Account
+- BMW is a Car
+- HomeLoan is a Loan
+- Lion is a Animal
+
+2. HAS-A
+- BMW has a Driver
+- Customer has a Order
+- Customer has a Account
+
+- Java provide single inheritance in case of classes
+- Java also provide multiple inheritance in case of interfaces
+
+
+Inheritance-
+
+- Parent - child Relationship
+by using extends keyword
+
+Benefit:
+1. Code Reuse
+
+SOLID
+- S- SRP
+- D- DRY
+- O- Open/Close
+Class is open for extension and close for modification.
+
+Overriding
+- When parent feature is outdated so we override the parent featre in a child.
+- Overriding hide the parent feature
+
+1. Must be inheritance
+2. Method signature must be same
+
+Assignment - 3
+
+1. Person, Employee, Student- Multilevel Inheritance
+2. Shape Class, Square Class, Rectangle Class, Circle Class - Heirarchy Inheritance. Use Upcasting and Downcasting
+
