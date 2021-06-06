@@ -1,0 +1,41 @@
+Abstract:
+
+- Abstract methodfs are methods can only be declared, not defined.
+- Abstract class can have abstract methods
+- You can't create objects of abstract class
+
+Interface:
+
+- An interafce can have method and variables, but the methods declared in an interface are by default abstract(only method signature, no body)
+- It is used to achieve total abstraction
+- Variables in interface are final, public and static
+- In interface, we can perform multiple inheritance
+
+Not supported multiple inheritance in java by using classes
+class parent1{}
+
+class parent2{}
+
+class child extends parent1, parent2{}
+
+Memory Management(GC Eligibility)
+
+case 1: Enemy obj - new Enemy();
+		obj = null; // this object is eleigible for GC
+		
+case 2:
+Object out of scope
+if(10 > 2) {
+	Enemy obj - new Enemy();
+}
+
+case 3:
+Enemy obj - new Enemy();
+Enemy obj2 - new Enemy();
+obj2 = obj;// obj-99, obj2-88 , obj2 = 99
+
+now, obj2 is eligibe for GC.
+
+GC:
+1. Minor GC- young generation
+2. Maos/Major GC - old generation
