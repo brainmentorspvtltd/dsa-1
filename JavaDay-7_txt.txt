@@ -1,0 +1,61 @@
+How to increase/decrese heap size and stack size?
+
+Heap Size: -Xmx200m
+-Xms20m -Xmx200m
+
+Stack Size: -Xss2m
+
+-XX-PermSize=20m
+
+String Handling:
+
+- String internally is a char[]
+e.g. String name = "Ram";
+char name[] = {'R', 'a', 'm'};
+
+- String is a predefine class in java, so it has lot of predefine functions inside the class.
+e.g uppercase, lowercase, indexof, split, length
+- It is also treat like a Data type
+- String is a final class, so you can't inherit
+- String Objects are created in 2 ways:
+
+1. String Literal Style
+e.g. String name = "Ram";
+
+2. String Object Style
+e.g. String name = new String("Ram");
+
+- String use String Pool
+- String objects are immutable
+
+Immutable - String doesn;t change existing or original objects, it can create new memory or objects all the time.
+
+String Buffer and String Builder- Mutuable - That doesn't create new objects.
+
+- Capacity Cross-16
+	(Old Capacity * 2) + 2
+	(16 * 2) + 2 = 34 
+	
+-StringBuffer is synchronized i.e. thread safe. 
+-Two threads can't call the methods of StringBuffer simultaneously.
+
+-StringBuilder is non-synchronized i.e thread safe.
+-Two threads can call the  methods of StringBuilder simultaneously
+
+Assignment - 4
+
+1. Occurrence of a given character in String
+2. Occurrence of each character in String
+3. Split camel case letter
+Regular Camel Case names e.g.
+-"camelCaseName" -> [camel, Case, Name]
+
+All lower case names e.g. 
+-"lower" -> [lower]
+
+All upper case names e.g.
+-"UPPER" -> [UPPER]
+
+Special Cases e.g.
+-"specialCASE" -> [special, CASE]
+
