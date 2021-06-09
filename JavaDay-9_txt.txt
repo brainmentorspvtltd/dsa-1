@@ -1,0 +1,20 @@
+Assignment - 5
+
+Apply for Job
+-Verify Driving License and Aadhar Card
+-And relevent Exception
+
+File Handling
+
+- Streams: Flow of Data
+
+1. Text-->Reader, Writer (abstract)
+
+
+2. Byte-->InputStream, OutputStream (abstract)
+
+
+
+InputStream
+OutputStream
+
