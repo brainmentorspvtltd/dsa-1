@@ -1,0 +1,10 @@
+IS-A
+
+a) Parent Serializable, Child(By default Serializable) don't want to Serializable keyword
+b) Only child is Serializable
+
+HAS-A Serialization
+
+Assignment - 6
+Store 5 Employee Objects, by adding one by one and filter by salary > 9000
+
