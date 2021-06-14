@@ -1,0 +1,64 @@
+Why you learn data structure?
+
+1. Finding Shortest Path - Google map do
+2. Stacks: Undo Operations, Browsers Back Functionality
+3. Graphs: are used to represents relationships such as social networking sites.
+Using GPS/Google Maps/Yahoo Maps to find a route based on shortest route
+4. Tree:
+	1. Folders in Operating System
+	2. Any mark up language uses Tree structure called as DOM
+	3. Compilers use a syntax tree to validate the syntax of every program you write.
+Queue:
+1. Queue is also used by Operating System for job scheduling
+2. Queue is used in key pressing sequence in keyboard
+3. Queue is used in networking to handle congestion
+
+Doubly Linked List: a music playlist and browser navigation (back and forward)
+
+What is Algorithm?
+
+Sequential steps for solving a problem
+e.g. How to make a tea
+
+Measures of Performance:
+
+1. Time: 
+- Amount of Processing or Number of operations
+
+2. Space or Extra Space:
+- This is both memory needed by code to store information at runtime as well as disk space needed by code for persistence/permanent storage
+
+3. Network:
+The bandwidth code uses to pass information to clients or other machines
+
+
+#How we calculate the execution of the code
+
+- Time taken is proportional to number of operations and input size
+
+Asymptotic Notation:
+
+It is a mathematical way to represent, the complexity of a algo.
+
+big omega: Best Case - Input favour the algo
+e.g. If inputs are sorted in nature of searching algo
+
+Big O (Upper bound of a function) Worst Case- Input not favour the Algo
+
+Theta Notation: Average Case- Random Inputs
+
+e.g. If inputs are 10 and want ot search in array.
+Best Case 1 comparison, Found on First Match
+Worst Case 10 comparison, Found on Last Match
+
+Rate of Growth are generalized in the following form:
+
+1 Constant
+log N - Logarithmic
+N - Linear
+NlogN - Linear Log
+N^2 - Quadratic
+N^3 - Cubic
+2^N - Exponential
+
+
