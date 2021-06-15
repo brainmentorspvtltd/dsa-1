@@ -1,0 +1,40 @@
+Array:
+
+-Array are oldest and simplest data structure
+-Homogeneous (same kind) values contains, continuous memory location, Access using index
+
+Good parts of Array:
+
+- It provide random access
+
+RA = Base Address + index * size
+
+- Cache Friendly: Cache Always bring the near by data(like Contigous data)
+	because elements are continuous so next index element always on the cache, so fast access.
+	
+-Good for searching because elements are on continuous memory location
+
+One - d Array Declaration Styles
+int arr[] = {10, 20, 30, 40, 50};
+int []arr = {10, 20, 30, 40, 50};
+int arr[] = new int[]{10, 20, 30, 40, 50};
+int arr[] = new int[10];
+
+Insert an element in Array
+arr[index] = element - O(1) TC
+
+Read the element from the particular index
+element = arr[index] - O(1) TC
+
+Q 1. Reverse an Array - Home Work
+
+Q 2. Sort 0, 1 Array
+{1, 0, 1, 1, 0, 1, 0}
+
+-First count all the zero's
+-Then start from 0th index and go till count and fill all the zero's there
+-And rest after count to array length - 1 fill the 1's
+
+Q 3. Dutch National Flag(DNF) Problem / Sort Colors/ Sort 0, 1, 2
+
+- Single Parse Solution
