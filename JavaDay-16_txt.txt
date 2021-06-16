@@ -1,0 +1,74 @@
+Q 1. Dutch National Flag(DNF) Problem / Sort Colors/ Sort 0, 1, 2
+
+- Single Parse Solution
+
+Q 2. First, Second and Third Largest, O(N)
+
+Input
+2, 13, 4, 1, 6, 28
+
+Output
+First - 28
+Second - 13
+Third - 6
+
+Q 3. Majority Element O(N)- Amazon, Google 
+
+Constraints: m > n / 2
+
+Input:
+3, 2, 3
+Output:
+3
+
+Q 4. Single Number / Element Appear Twice / number occurence odd number of times
+
+Input:
+2, 2, 1
+Output:
+1
+
+Input:
+4, 1, 2, 1, 2
+Output:
+4
+
+Q 5. Increasing Triplet Subsequence
+
+Input:
+5, 4, 3, 7, 6, 1, 9
+Output:
+true, 5 < 7 < 9
+
+Q 6. Pair Sum - Home Work
+Given an Array, Find any pair whose sum is equal to k
+
+Input:
+2, 9, 4, 3, 1, 10, 6
+k = 9
+Output:
+6, 3
+
+k = 5
+Output:
+1, 4: 2, 3
+
+Q 7. Convert array into zig-zag fashion - Home Work
+a < b > c < d > e
+
+Input:
+4, 3, 7, 8, 6, 2, 1
+Output:
+3, 7, 4, 8, 2, 6, 1
+
+Q Reverse an Array - Home Work
+low = 0, high = n - 1
+
+while(low < high)
+{
+	swap(arr[low], arr[high]);
+	low++;
+	high--;
+}
+
+
