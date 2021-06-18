@@ -1,0 +1,62 @@
+1. Rotate Array
+2. Sort Array by Parity
+
+3. Create target array in the given order
+Input:
+nums[] = {0, 1, 2, 3, 4}
+index[] = {0, 1, 2, 2, 1}
+
+nums index 	target
+0		0		0		0
+1		1		4		0, 1
+2		2		1		0, 1, 2
+3		2		3		0, 1, 3, 2
+4		1		2		0, 4, 1, 3, 2
+
+Output:
+target[] = {0, 4, 1, 3, 2}
+
+4. Replace elements with greatest element on right side
+
+Input: 17, 18, 5, 4, 6, 1
+Output: 18, 6, 6, 6, 1, -1
+
+Logic traverse right to left
+
+5. Find two repeating elements in an array
+
+Input: 2, 4, 3, 1, 2, 5, 4
+Output: 2, 4
+
+String Problems:
+
+1. RLE - Run Length Encoding
+
+Input: wwwwaaadexxxxxxywww
+Output: w4a3d1e1x6y1w3
+
+2. Remove Adjacent Duplicates
+
+Input: AAABBCDDD
+Output: ABCD
+
+3. Find first non-repeating char
+Input: "garima"
+Output: g
+
+4. Longest Common Prefix
+Input: "leetcode", "lean"
+Output: le
+
+5. Check if string is rotation of each other
+
+Str1 = "AACD"
+Str2 = "ACDA"
+
+1. concate temp = str1 with str1
+2. check str2 substring in temp
+
+2D-Matrix
+
+1. Transpose Matrix
+2. Negative number in matrix
