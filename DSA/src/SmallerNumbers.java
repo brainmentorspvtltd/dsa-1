@@ -19,12 +19,10 @@ public class SmallerNumbers {
 		
 		for(int i = 0; i < arr.length; i++)
 		{
-			map.put(arr[i], i);
-		}
-		
-		for(int i : arr)
-		{
-			System.out.print(i+" ");
+			if(map.get(arr[i]) == null)
+			{
+				map.put(arr[i], i);
+			}
 		}
 		
 		int output[] = new int[arr.length];
@@ -34,12 +32,20 @@ public class SmallerNumbers {
 			output[i] = map.get(org[i]);
 		}
 		
+		int result[] = new int[arr.length];
+		int index = 0;
+		
 		for(int i : output)
 		{
-			System.out.print(i+" ");
+			result[index] = i;
+			index++;
+		}
+		
+		for(int i : output)
+		{
+		System.out.print(i+" ");
 		}
 				
-		
 		/*
 		 * //O(N ^ 2)
 		int count= 0;
