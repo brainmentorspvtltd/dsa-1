@@ -1,0 +1,60 @@
+1. Set Matrix Zero
+2. K weakest Row in Matrix - HW
+3. Word Search - HW
+
+Recursion:
+
+- The process in which a function calls itself is called a recursion.
+- Recursion is a method where the solution of a problem depends upon the solutions that are small instances of the same problem.
+
+Why we need recursion?
+
+- divide the problem into a smaller instances of the same problem
+
+Recursion vs Iteration
+
+Recursion:
+-Fucntion calls itself
+-for functions
+-makes code smaller
+-Infitnite recursion can lead to system crash/stack overflow
+-The time complexity of recursion can be found by finding the value of the nth recursive call in term of the previous calls.
+
+Iteration:
+-A set of instructions repeatedly executed
+-for loops
+-makes code longer
+-infinite iteration consumes CPU cycles
+-The time complexity of iteration can be found by finding the number of cycles being repeated inside the loop
+
+What is call stack?
+-A call stack is a stack data structure that is used to trace the sequence of the function call.
+-When a function called then it's get pushed inside the stack and when a function returns it popped out from the stack
+
+Three Concepts of Recursion:
+
+1. Base Case / Terminating Case / Stop Case - if(n == 1)
+2. Processing Logic - sum = n + func(n - 1)
+3. Small Problem - func(n - 1)
+
+What is Stack Building?
+
+Stack building is used to print the sequence in reverse order.
+
+What is Stack Falling?
+
+Stack falling is just like a normal recursion and it is recursively called the function till the base case is false. Once the base case is true then it can print the sequence as print 1 2 3 4 5
+
+Q. Factorial using recursion - Home Work
+
+Q. Reverse a String using Recursion
+
+Q. 1 to 10 even / odd print using Recursion
+
+Q. Power using Recursion
+
+Tree Recursion:
+
+If a function is a recursive function that is calling itself more than one time.
+
+
