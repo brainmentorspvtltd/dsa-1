@@ -1,0 +1,18 @@
+1. Count number of zeroes in digit
+
+2. Check Array Sorted or Not
+
+3. Nth Fibonacci Series - HW
+
+4. Search Element in Array
+
+5. All occurences of elements in Array
+
+6. Replace all PI with 3.14
+
+7. Print Adjacent Star
+
+8. Pattern - 1
+
+9. Pattern - 2
+	
