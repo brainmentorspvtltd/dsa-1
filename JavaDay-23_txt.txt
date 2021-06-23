@@ -1,0 +1,44 @@
+1. Pattern - 5 - HW
+
+	*
+       ***
+      *****
+     *******
+    *********
+
+
+2. Capatalize a String
+
+Input: java example
+Output: Java Example
+
+3. Product of Array
+
+Input: [1, 2, 3, 4]
+Output: 24 (1 * 2 * 3 * 4)
+
+4. Palindrome String
+
+Input: malayalam
+Otuput: Yes
+
+Input: Gagan
+Output: No
+
+5. Bubble Sort 
+
+6. ATOI: Ascii to Integer
+
+Input: "400"
+Output: 400
+
+7. Subsequence of a Given String
+
+Input: "abc"
+Output: a , b, c, ab, bc, ac, abc
+
+8. Permutation of a Given String
+
+Input: "abc" (length is 3, 3! = 3 * 2 *1 = 6)
+Output: abc, acb, bac, bca, cab, cba
+
