@@ -1,0 +1,20 @@
+1. Dice Game
+
+2. Maze Path Problem
+
+3. Maze Path Diagonal Problem - Home Work
+
+4. Permutation Print - Home Work
+
+5. Math Path Print - Home Work
+
+6. Maze Path Diagonal Print- Home Work 
+
+7. Dice Game Print - Home Work
+
+8. Stair Climb Problem
+
+#Backtracking 
+
+1. N Queen Problems
+
