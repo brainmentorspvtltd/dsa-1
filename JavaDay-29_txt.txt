@@ -1,0 +1,21 @@
+1. Sudoku Problem
+
+2. Permutation - Home Work
+
+Input - [1, 2, 3]
+Output - [[1, 2, 3], [1, 3, 2], [2, 1, 3], [2, 3, 1], [3, 1, 2], [3, 2, 1]]
+
+Input - [0, 1]
+Output - [[0, 1], [1, 0]]
+
+Input - [1]
+Output - [[1]]
+
+3. Dynamic Programming, DP
+	- Fibonacci without DP
+	- Fibonacci With DP(Top - Down Approach)
+	- Fibonacci with DP(Bottom - Up Approach)
+
+	- Dice Game Problem without DP (Already Done)
+	- Dice Game with DP(Top - Down Approach)
+	- Dice Game with DP(Bottom - Up Approach)
