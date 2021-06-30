@@ -1,0 +1,16 @@
+1. Dice Game Problem - Already done
+
+2. Climb Stair
+	- Recursive Approach - Done
+	- Tabulation
+	- Memoization - HW
+
+3. Minimum Cost Path Problem
+	- Recursive Approach - Done
+	- Tabulation
+	- Memoization - HW
+
+4. Subset Sum Problem
+	- Recursive Approach - Done
+	- Tabulation - Done
+	- Memoization - HW
