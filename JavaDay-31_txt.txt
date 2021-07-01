@@ -1,0 +1,27 @@
+1. LIS Problem - (Longest Increasing Subsequence)
+	- Memoization - HW
+
+2. Edit Distance Problem
+	- Memoization - HW
+
+3. Knapsack Problem
+	- Memoization - HW
+
+4. Coin Change Problem
+	- Memoization - HW
+	- Tabulation - HW
+
+5. LCS Problem - Longest Common String - HW
+	- Memoization - HW
+	- Tabulation - HW 
+
+Input: 
+Str1 = "ABCDGH"
+Str2 = "AEDFHR"
+
+Output:
+AD is a subsequence
+AH is a subsequence
+ADH is a LCS.
+
+--> Linked List
