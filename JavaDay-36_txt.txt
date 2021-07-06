@@ -1,0 +1,29 @@
+1. Palindrome Linked List
+
+2. Remove Nth node from the end of a Linked list
+
+3. Reverse the Data
+
+4. Detect a Loop in a Linked List - Home work
+
+Stack: Last in First Out (LIFO)
+- It is also a Linear data structure
+- Abstract Data Type
+
+Stack in Realtime:
+- CallStack
+- Undo
+- Expression Solve
+- Tree Traverse
+
+Stack Operations:
+
+- insert or delete on top/peek end only
+- insert = push()
+- delete = pop()
+- isEmpty()
+- size()
+- top() or peek()
+
+--> Stack with Array implementation
+
