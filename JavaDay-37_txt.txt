@@ -1,0 +1,15 @@
+1. Intersection of two Linked List
+
+2. Split Linked List
+
+3. Merge Linked List - HW
+
+4. Add two numbers in a Linked List
+
+Stack: Questions:
+
+1. Next Greater Element
+2. Next Smaller Element - HW
+3. Previous Greater Element - HW
+4. Previous Smaller Element - HW
+
