@@ -1,0 +1,7 @@
+1. Balanced Parenthesis
+
+2. Two Stack in an Array
+
+3. Reverse a Stack using Recursion
+
+4. Stock Span Problem
