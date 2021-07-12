@@ -1,0 +1,101 @@
+1. Stack with getMin
+
+2. Celebrity Problem (Stack)
+
+3. Queue using Array
+
+4. Queue using Linked List
+
+5. Circular Queue using Array
+
+6. Tree Data Structure
+
+- Tree is Heirachical Data Structure
+- It is non-linear Data Structure
+- Application of Tree:
+	1. Organizational Structure
+	2. Folder Structure
+	3. DOM Tree
+	4. Showing OOPS Inheritance
+- It allows quicker and easier access to the data.
+
+Tree has 3 types:
+
+1. Generic Tree
+2. Binary Tree
+3. Binary Search Tree (BST)
+
+Basic Terminologies about Tree:
+
+1. node
+2. root
+3. edge
+4. leaf node
+5. child node
+6. parent node
+7. subtree
+8. Descendants: lies under the tree node
+9. Ancestors: A ode that is connected to all the lower - level nodes is 
+	called an ancestor.
+10. Degree: number of child under the parent node
+11. Internal Nodes: not leaf and degree are not zero
+12. Level: A level is the number of parent nodes corresponding to a given node of 
+	the tree. It is basically the number of ancestors from the node until the root
+	node. So, for the root node, it's level is 0. Since it has no parents.
+
+13. Depth: The depth of a node is the number of edges from the node to the tree's 
+	root node.
+	A root node will have a depth of 0.
+
+14. Properties of a tree:
+	- The height of a tree would be the height of its root node, or equivalently 
+		the depth of its deepest tree.
+	- The Diameter (or width) of a tree is the number of nodes on the longest
+		path between any two leaf nodes. 
+
+15. Size of a tree: Total number of nodes present in the tree.
+
+#Generic Tree:
+
+A tree which has many(N) number of children.
+
+Assignment:
+Stack:
+1. Infix to Prefix
+2. Infix to Postfix
+3. Histogram Problem
+4. Implement a stack using single Queue
+5. K Stack in an Array
+
+Linked List:
+6. Split a Circlular LL into 2 halves
+7. Flattern LL
+8. Clone LL
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
