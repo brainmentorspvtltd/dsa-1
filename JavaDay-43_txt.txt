@@ -1,0 +1,92 @@
+1. Generic Tree
+
+--> Binary Tree:
+
+- It can't have more than 2 children
+- It can have 0, 1, or 2 children but not more than 2 children.
+
+Tree Traversals:
+
+1. Inorder Traversal
+- Left Subtree Traverse
+- Root Node
+- Right Subtree Traverse
+
+2. Preorder Traversal
+- Root Node
+- Left Subtree
+- Right Subtree
+
+3. Postorder Traversal
+- Left Subtree
+- Right Subtree
+- Root Node
+
+2. Binary Tree Insertion , Printing (Tree Traversals)
+
+3. Level Order Traversal Of a Binary Tree
+- using queue
+
+4. Print Nodes at K distance from root
+
+5. Print Ancestor of a given node in a Binary Tree
+
+6. Maximum Width of a Binary Tree
+
+7. Children Sum Binary Tree
+
+8. Print Left View of a Binary Tree
+- Using Queue
+
+Assignment : Tree Problems - Binary Tree
+
+1. Height of a Tree
+2. Size of a Tree
+3. Maximum/Largest Node(Value) in a Tree
+4. Count Leaf Nodes of a Tree
+5. Right View, Top View , Bottom View
+6. Vertical Order Traversal, Boundary Traversal, Diagonal Traversal of a Tree
+9. Diameter of a Tree
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
