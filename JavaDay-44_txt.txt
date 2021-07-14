@@ -1,0 +1,58 @@
+1. Check for Balance Binary Tree
+
+2. LCA (Lowest Common Ancestor) in a Binary Tree
+
+3. Spiral Order Traversal of a Binary Tree or Level order traversal in spiral form
+
+4. Merge Two Binary Trees
+
+- Given two binary trees, we need to merge them into a new binary tree. The merge rule is 
+	that if two nodes overlap, them sum node values up as the new value of the merged node.
+	That means the node is non-null will be used as the node of new tree.
+
+Note: The merging process must start from the root nodes of both the trees.
+
+Algo:
+1. Traverse the tree in preorder fashion
+2. check if both the tree nodes are null
+	- if not, then update the value
+3. recursively for left subtree
+4. recursively for right subtree
+5. return root of updated tree
+
+5. Serialization and Deserialization of a Binary Tree
+
+Serialize:is to store tree in a file that it can be later restored.
+
+Deserialize: is reading tree back from file.
+
+Algo:
+
+A simple solution is to store both inorder and preorder traversals. This solution requires 
+space twice the size of binary tree.
+We can save space by storing preorder traversal and a marker for NULL pointers.
+
+- marker for NULL pointer = # or -1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
