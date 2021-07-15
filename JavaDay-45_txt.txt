@@ -1,0 +1,28 @@
+1. Inorder Successor of a Binary Tree
+
+2. Inorder Predessor of a Binary Tree - Home Work
+
+3. Burn the Binary Tree - Home Work
+
+4. Binary Search Tree - Intro
+
+- BST the left child is less than the parent node.
+- The right child is greater than the parent node.
+- It also has maximum 2 children
+
+#Deletion in BST
+- Leaf node deletion: No problem 
+- Deleted node has one child: copy the child node and delete the child
+- Deleted node has two children: inorder successor
+
+5. Floor and Ceil in a BST
+
+- 2.32
+- floor = 2
+- ceil = 3
+
+6. LCA(Lowest Common Ancestor) in a BST
+
+7. Kth Smallest Element in BST
+
+7. Kth Largest Element in BST - Home Work
