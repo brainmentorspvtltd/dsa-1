@@ -1,0 +1,35 @@
+1. Top View of a Binary Tree - Home Work (Again Discussed)
+
+2. Graph Intro
+
+- A graph is a non- linear data structure
+- Nodes as vertices and the edges the lines that connect any two nodes/vertices in the graph
+
+Graph Applications:
+
+- Graphs are used to represent networks
+	e.g: telephone network or city network, or cicruit network
+- Graphs are also used in social media networks, like linkedIn, Facebook etc
+
+cyclic grapgh: A graph is cyclic if the graph has a path that starts from a vertex and ends at the same vertex.
+
+Acyclic Graph: Graph that has no cycle.
+
+Graph Representations:
+
+1. Adjacent List - implementation - done
+2. Adjacent Matrix - implementation - done
+
+Graph Traversals:
+
+-Graph Traversal means visiting every vertex and edge exactly once in a well defined order.
+
+1. Breadth First Search or Breadth First Traversal
+2. Depth First Search or Depth First Traversal
+
+- BFS implementation - done
+- DFS implementation - Home Work
+
+3. Graph Contains path between two vertices or not - Home work
+
+
