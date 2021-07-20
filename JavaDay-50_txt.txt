@@ -1,0 +1,241 @@
+Bit Manipulation
+
+- Bit: 0 or 1
+- It is the process of applying logical operations on a sequence of bits.
+
+Applications:
+
+- Data Compression
+- Encryption
+- Optimization
+
+Advantages:
+
+- fast and simple 
+- directly supported by the processor
+- comparison and calculations
+
+Bitwise Operators:
+
+1. AND
+2. OR
+3. X-OR
+4. Left Shift
+5. Right Shift
+6. Not 
+
+
+Decimal to Binary
+10  --> 1010
+8   --> 1000
+63  --> 00111111
+96  --> 01100000
+
+Binary - 2 (1 or 0)
+
+2 ^ 7,2 ^ 6,2 ^ 5,2 ^ 4,2 ^ 3,2 ^ 2,2 ^ 1,2 ^ 0
+128	64    32   16	 8	4	2    1
+
+1. AND Operator, &
+
+0 & 0 = 0
+0 & 1 = 0
+1 & 0 = 0
+1 & 1 = 1
+
+5 & 7 = 5
+
+5 - 0101
+7 - 0111 &
+    0101 - 5
+
+2. OR Operator, |
+OR: Inclusive OR
+
+0 | 0 = 0
+0 | 1 = 1
+1 | 0 = 1
+1 | 1 = 1
+
+5 | 7 = 7
+
+5 - 0101
+7 - 0111 |
+    0111 - 7
+
+3. X - OR Operator, ^
+X-OR: Exclusive OR
+
+0 ^ 0 = 0
+0 ^ 1 = 1
+1 ^ 0 = 1 
+1 ^ 1 = 0
+
+5 ^ 7 = 2
+
+5 - 0101
+7 - 0111 ^
+    0010 - 2
+	
+4. Left Shift, <<
+
+5 << 1 = 10
+
+5 - 0000 0101
+
+0000 0101 << 1
+
+0000 1010 - 10
+
+Left Shift Shortcut:
+
+5 * 2 ^ 1 = 5 * 2 = 10
+
+5. Riht Shift, >>
+
+5 >> 1 = 2
+
+5 - 0000 0101
+
+0000 0101 >> 1
+
+0000 0010 = 2
+
+Right Shift Shortcut:
+
+5 / 2 ^ 1 = 5 / 2 = 2
+
+6. Not Operator, ~, one's complement
+
+5 - 0000 0101
+
+(~5): 1111 1010
+
+
+
+Examples:
+
+1. X-OR
+
+Swapping without using third variable
+
+1st way
+a = 5, b = 4, + -
+
+a = a + b = 9 
+b = a - b = 9 - 4 = 5
+a = a - b = 9 - 5 = 4
+
+a = 4, b = 5
+
+2nd Way
+
+a =5, b = 4, * /
+
+a = a * b = 20
+b = a / b = 20 / 4 = 5
+a = a / b = 20 / 5 = 4
+
+a = 4, b = 5
+
+3rd Way
+
+a = 5, b = 4, ^
+
+a = a ^ b;// 1
+b = a ^ b;// 5
+a = a ^ b;//4
+
+5 - 0101
+4 - 0100
+    0001 - 1
+    0101 - 5
+    0100 - 4
+
+a = 4, b = 5
+
+# Uppercase and Lowercase
+
+ASCII:
+
+A - 65 to Z - 90
+a - 97 to z - 122
+
+uppercase to lowercase : 65 + 32 = 97 (a)
+lowercase to uppercase : 97 - 32 = 65 (A)
+
+A = 65 = 0100 0001  - Uppercase
+    32 = 0010 0000 &
+	 0000 0000 - 0 - zero indicates - Uppercase
+
+a = 97 = 0110 0001 - lowercase
+    32 = 0010 0000 &
+         0010 0000 - 32 - indicates - lowercase
+
+
+
+1. Count set bits
+
+input: 6
+
+6 - 0110 
+
+O/p - 2
+
+2. Power of 2
+
+Input: 4
+
+O/P: yes, (2 ^ 2)
+
+Input: 7
+
+O/P: No
+
+3. One Odd occurence  / Single Number
+
+input: 2, 3, 4, 5, 5, 4, 3
+
+output: 2
+
+Naive Solution: Brute Force Approach
+
+1. use 2 loops (i and j)
+
+Best Solution: X-OR Based Approach
+
+result = single number
+
+4. Two Odd Occurence
+
+input: 4, 4, 100, 5000, 4, 4, 4, 4, 100, 100
+
+output: 100, 5000
+
+input: 12, 23, 34, 12, 12, 23, 12, 45
+
+output: 34, 45
+
+5. Check Kth bit is set or not
+
+input: n = 5, k = 1
+
+5 - 0101
+
+Output: Set 
+
+input: n = 2, k = 3
+
+2 - 0010
+
+output: Not Set
+
+
+
+
+
+
+
+
+
+
